@@ -8,7 +8,7 @@ const cleanIPLink = "http://bot.sudoer.net/best.cf.iran.all"
 
 const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL"]
 
-const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
+const addressList = ["BMI.IR", "discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
 
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "random", "random"]
 
