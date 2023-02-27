@@ -1,35 +1,35 @@
 # Render
 
-## 登录 render 账户
+## Login to render account
 
-## Render Web APP 每月有 100GB 出站流量限制
+## Render Web APP has a 100GB outbound traffic limit per month
 
-如果使用 AWS ip 注册 Render 账户，会被要求绑定信用卡才能使用 Web APP。如果出现需要绑卡提示，建议更换 ip 注册。
+If you use AWS ip to register a Render account, you will be required to bind a credit card to use the Web APP. If there is a prompt to bind the card, it is recommended to change the ip registration.
 
 https://render.com/
 
-## 访问 https://dashboard.render.com/
+## Visit https://dashboard.render.com/
 
 ## New Project
 
 ![render1](./render1.jpg)
 
-## 关联 github 账户
+## Associate github account
 
 ![render2](./render2.jpg)
 
-## 部署新项目
+## Deploy new project
 
-需要填写如下信息，具体请参考下图.
+The following information needs to be filled in, please refer to the figure below for details.
 
-> Render 入口为 Cloudflare cdn，如果可以优选到亚洲地区 cloudflare ip，新加坡区速度最好。否则 cloudflare 默认美国线路，选美区速度最好。
+> The Render entrance is Cloudflare cdn. If you can optimize to cloudflare ip in Asia, the speed in Singapore is the best. Otherwise, cloudflare defaults to the US line, and the beauty zone has the best speed.
 
-| 选项          | 值                                      |
-| ------------- | --------------------------------------- |
+| option | value |
+| ------------- | ----------------------------------- ---- |
 | Build Command | `npm install; npm run node-vless:build` |
-| Start Command | `npm run node-vless:start`              |
+| Start Command | `npm run node-vless:start` |
 
 ![render3](./render3.jpg)
 
-**⚠️ 添加环境变量 UUID**
+**⚠️ Add environment variable UUID**
 ![render4](./render4.jpg)
